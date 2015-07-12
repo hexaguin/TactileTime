@@ -59,7 +59,7 @@ void handle_init(void) {
   text_layer_set_background_color(hour_text_layer, GColorBlack);
   text_layer_set_text_color(hour_text_layer, GColorWhite);
   text_layer_set_text(hour_text_layer, "00");
-  text_layer_set_font(hour_text_layer, fonts_get_system_font(FONT_KEY_ROBOTO_BOLD_SUBSET_49)); //TODO: Make the numbers prettier
+  text_layer_set_font(hour_text_layer, fonts_get_system_font(FONT_KEY_ROBOTO_BOLD_SUBSET_49)); //TODO: Make the numbers prettier. Maybe use custom font/rendering?
   text_layer_set_text_alignment(hour_text_layer, GTextAlignmentCenter);
   
   minute_text_layer = text_layer_create(GRect(0, 107, 144, 61));
